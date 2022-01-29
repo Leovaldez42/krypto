@@ -1,7 +1,10 @@
-import './App.css'
-import { Navbar, Welcome, Footer, Services, Transactions} from './components'
+import React from 'react';
+import './App.css';
+import {
+  Navbar, Welcome, Footer, Services, Transactions,
+} from './components';
 
-const App = () => {
+function App() {
   return (
     <div className="min-h-screen">
       <div className="gradient-bg-welcome">
@@ -12,7 +15,7 @@ const App = () => {
       <Transactions />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
